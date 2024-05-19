@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/traveluzb/static/css/main.ef2b1101.css",
+    "main.js": "/traveluzb/static/js/main.925d4db6.js",
+    "index.html": "/traveluzb/index.html",
+    "main.ef2b1101.css.map": "/traveluzb/static/css/main.ef2b1101.css.map",
+    "main.925d4db6.js.map": "/traveluzb/static/js/main.925d4db6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef2b1101.css",
+    "static/js/main.925d4db6.js"
+  ]
+}
