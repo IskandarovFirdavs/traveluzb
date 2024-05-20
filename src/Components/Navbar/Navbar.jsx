@@ -145,20 +145,20 @@ const Navbar = () => {
             />
             <div className="dropdown-content">
               <div className="dropdown-content">
-                <H6 to={"/yo'nalishlar"}>Our destinations</H6>
-                <H6 to={"/ariza"}>Get an offer</H6>
-                <H6 to={"/sharhlar"}>Comments</H6>
-                <H6 to={"/bog'lanish"}>Contact us</H6>
+                <H6 to={"/yo'nalishlar"}>НАШИ НАПРАВЛЕНИЯ</H6>
+                <H6 to={"/ariza"}>Получить предложение</H6>
+                <H6 to={"/sharhlar"}>Kомментарий</H6>
+                <H6 to={"/bog'lanish"}>СВЯЗАТЬСЯ С НАМИ</H6>
               </div>
             </div>
           </div>
         </Header2>
       ) : (
         <Right>
-          <H6 to={"/yo'nalishlar"}>Our destinations</H6>
-          <H6 to={"/ariza"}>Get an offer</H6>
-          <H6 to={"/sharhlar"}>Comments</H6>
-          <H6 to={"/bog'lanish"}>Contact us</H6>
+          <H6 to={"/yo'nalishlar"}>НАШИ НАПРАВЛЕНИЯ</H6>
+          <H6 to={"/ariza"}>Получить предложение</H6>
+          <H6 to={"/sharhlar"}>Kомментарий</H6>
+          <H6 to={"/bog'lanish"}>СВЯЗАТЬСЯ С НАМИ</H6>
           <div className="dropdown">
             <img
               src="https://cdn3d.iconscout.com/3d/premium/thumb/language-translate-4965044-4133429.png?f=webp"
