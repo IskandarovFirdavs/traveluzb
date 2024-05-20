@@ -104,7 +104,7 @@ const Navbar = () => {
           justifyContent: "center",
           marginTop: "-10px",
         }}
-        href="https://iskandarovfirdavs.github.io/travel/"
+        href="https://iskandarovfirdavs.github.io/traveluzb/"
       >
         <H1>Uzbekistan Transfer.uz</H1>
       </a>
