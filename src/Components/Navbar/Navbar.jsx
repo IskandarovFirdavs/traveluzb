@@ -102,12 +102,41 @@ const Navbar = () => {
   }, []);
   return (
     <Nav>
-      <Left to={"/traveluzb/"}>
+      <Left to={"/travelru/"}>
         <H1>Uzbekistan Transfer.uz</H1>
       </Left>
       {width <= 800 ? (
         <Header2>
           {" "}
+          <div className="dropdown">
+            <img
+              src="https://cdn3d.iconscout.com/3d/premium/thumb/language-translate-4965044-4133429.png?f=webp"
+              alt="Cinque Terre"
+              height="50"
+            />
+            <div className="dropdown-content">
+              <div className="dropdown-content">
+                <a href="https://iskandarovfirdavs.github.io/travel/">
+                  <LangIcon
+                    src="https://static.vecteezy.com/system/resources/previews/016/328/589/original/uzbekistan-flat-rounded-flag-icon-with-transparent-background-free-png.png"
+                    alt=""
+                  />
+                </a>
+                <a href="https://iskandarovfirdavs.github.io/traveluzb/">
+                  <LangIcon
+                    src="https://www.pinclipart.com/picdir/big/94-946409_flag-ru-russia-icon-russian-federation-flag-icon.png"
+                    alt=""
+                  />
+                </a>
+                <a href="https://iskandarovfirdavs.github.io/travelru/">
+                  <LangIcon
+                    src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="dropdown">
             <img
               src="https://www.svgrepo.com/show/509382/menu.svg"
@@ -116,20 +145,49 @@ const Navbar = () => {
             />
             <div className="dropdown-content">
               <div className="dropdown-content">
-                <H6 to={"/yo'nalishlar"}>НАШИ НАПРАВЛЕНИЯ</H6>
-                <H6 to={"/ariza"}>Получить предложение</H6>
-                <H6 to={"/sharhlar"}>Kомментарий</H6>
-                <H6 to={"/bog'lanish"}>СВЯЗАТЬСЯ С НАМИ</H6>
+                <H6 to={"/yo'nalishlar"}>Our destinations</H6>
+                <H6 to={"/ariza"}>Get an offer</H6>
+                <H6 to={"/sharhlar"}>Comments</H6>
+                <H6 to={"/bog'lanish"}>Contact us</H6>
               </div>
             </div>
           </div>
         </Header2>
       ) : (
         <Right>
-          <H6 to={"/yo'nalishlar"}>НАШИ НАПРАВЛЕНИЯ</H6>
-          <H6 to={"/ariza"}>Получить предложение</H6>
-          <H6 to={"/sharhlar"}>Kомментарий</H6>
-          <H6 to={"/bog'lanish"}>СВЯЗАТЬСЯ С НАМИ</H6>
+          <H6 to={"/yo'nalishlar"}>Our destinations</H6>
+          <H6 to={"/ariza"}>Get an offer</H6>
+          <H6 to={"/sharhlar"}>Comments</H6>
+          <H6 to={"/bog'lanish"}>Contact us</H6>
+          <div className="dropdown">
+            <img
+              src="https://cdn3d.iconscout.com/3d/premium/thumb/language-translate-4965044-4133429.png?f=webp"
+              alt="Cinque Terre"
+              height="50"
+            />
+            <div className="dropdown-content">
+              <div className="dropdown-content">
+                <a href="https://iskandarovfirdavs.github.io/travel/">
+                  <LangIcon
+                    src="https://static.vecteezy.com/system/resources/previews/016/328/589/original/uzbekistan-flat-rounded-flag-icon-with-transparent-background-free-png.png"
+                    alt=""
+                  />
+                </a>
+                <a href="https://iskandarovfirdavs.github.io/traveluzb/">
+                  <LangIcon
+                    src="https://www.pinclipart.com/picdir/big/94-946409_flag-ru-russia-icon-russian-federation-flag-icon.png"
+                    alt=""
+                  />
+                </a>
+                <a href="https://iskandarovfirdavs.github.io/travelru/">
+                  <LangIcon
+                    src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </Right>
       )}
     </Nav>
