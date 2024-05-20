@@ -10,16 +10,7 @@ const Nav = styled("div")`
   align-items: center;
   background-color: greenyellow;
 `;
-const Left = styled(Link)`
-  width: 30%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  cursor: auto;
-  justify-content: center;
-  margin-top: -10px;
-`;
+
 const Right = styled("div")`
   width: 60%;
   height: 100%;
@@ -102,9 +93,21 @@ const Navbar = () => {
   }, []);
   return (
     <Nav>
-      <Left to={"/travelru/"}>
+      <a
+        style={{
+          width: "30%",
+          height: "100%",
+          display: "flex",
+          alignItems: "center",
+          textDecoration: "none",
+          cursor: "auto",
+          justifyContent: "center",
+          marginTop: "-10px",
+        }}
+        href="https://iskandarovfirdavs.github.io/travel/"
+      >
         <H1>Uzbekistan Transfer.uz</H1>
-      </Left>
+      </a>
       {width <= 800 ? (
         <Header2>
           {" "}
