@@ -102,7 +102,7 @@ const Navbar = () => {
           textDecoration: "none",
           cursor: "auto",
           justifyContent: "center",
-          marginTop: "-10px",
+          marginTop: "-10px"
         }}
         href="https://iskandarovfirdavs.github.io/traveluzb/"
       >
@@ -128,12 +128,6 @@ const Navbar = () => {
                 <a href="https://iskandarovfirdavs.github.io/traveluzb/">
                   <LangIcon
                     src="https://www.pinclipart.com/picdir/big/94-946409_flag-ru-russia-icon-russian-federation-flag-icon.png"
-                    alt=""
-                  />
-                </a>
-                <a href="https://iskandarovfirdavs.github.io/travelru/">
-                  <LangIcon
-                    src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
                     alt=""
                   />
                 </a>
@@ -179,12 +173,6 @@ const Navbar = () => {
                 <a href="https://iskandarovfirdavs.github.io/traveluzb/">
                   <LangIcon
                     src="https://www.pinclipart.com/picdir/big/94-946409_flag-ru-russia-icon-russian-federation-flag-icon.png"
-                    alt=""
-                  />
-                </a>
-                <a href="https://iskandarovfirdavs.github.io/travelru/">
-                  <LangIcon
-                    src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
                     alt=""
                   />
                 </a>
